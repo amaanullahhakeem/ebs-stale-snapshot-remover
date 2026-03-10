@@ -1,4 +1,4 @@
-# ebs-stale-snapshot-remover
+# ebs-stale-snapshot-remover (Using lambda function)
 # Identifying Stale EBS Snapshots
 
 I create a Lambda function that identifies EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
